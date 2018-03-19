@@ -14,6 +14,7 @@
 		54F2068D20603502009A68D3 /* ColorsWithNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2068C20603502009A68D3 /* ColorsWithNavigationTests.swift */; };
 		54F2069820603502009A68D3 /* ColorsWithNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2069720603502009A68D3 /* ColorsWithNavigationUITests.swift */; };
 		54F206A6206035EC009A68D3 /* colorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F206A5206035EC009A68D3 /* colorsViewController.swift */; };
+		54F206A820603AF5009A68D3 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F206A720603AF5009A68D3 /* color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		54F2069720603502009A68D3 /* ColorsWithNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsWithNavigationUITests.swift; sourceTree = "<group>"; };
 		54F2069920603502009A68D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54F206A5206035EC009A68D3 /* colorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorsViewController.swift; sourceTree = "<group>"; };
+		54F206A720603AF5009A68D3 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				54F2067E20603502009A68D3 /* Assets.xcassets */,
 				54F2068020603502009A68D3 /* LaunchScreen.storyboard */,
 				54F2068320603502009A68D3 /* Info.plist */,
+				54F206A720603AF5009A68D3 /* color.swift */,
 			);
 			path = ColorsWithNavigation;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F206A820603AF5009A68D3 /* color.swift in Sources */,
 				54F206A6206035EC009A68D3 /* colorsViewController.swift in Sources */,
 				54F2067820603502009A68D3 /* AppDelegate.swift in Sources */,
 			);
