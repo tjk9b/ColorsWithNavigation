@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5477CC2A20648BF0001A3EB2 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477CC2920648BF0001A3EB2 /* ColorDetailViewController.swift */; };
 		54F2067820603502009A68D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2067720603502009A68D3 /* AppDelegate.swift */; };
 		54F2067D20603502009A68D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F2067B20603502009A68D3 /* Main.storyboard */; };
 		54F2067F20603502009A68D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F2067E20603502009A68D3 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5477CC2920648BF0001A3EB2 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 		54F2067420603502009A68D3 /* ColorsWithNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsWithNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F2067720603502009A68D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F2067C20603502009A68D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				54F2068020603502009A68D3 /* LaunchScreen.storyboard */,
 				54F2068320603502009A68D3 /* Info.plist */,
 				54F206A720603AF5009A68D3 /* color.swift */,
+				5477CC2920648BF0001A3EB2 /* ColorDetailViewController.swift */,
 			);
 			path = ColorsWithNavigation;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				54F206A820603AF5009A68D3 /* color.swift in Sources */,
 				54F206A6206035EC009A68D3 /* colorsViewController.swift in Sources */,
 				54F2067820603502009A68D3 /* AppDelegate.swift in Sources */,
+				5477CC2A20648BF0001A3EB2 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
