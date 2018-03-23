@@ -75,11 +75,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mbz-sc-UPi">
-                                <rect key="frame" x="166" y="84" width="42" height="20.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mbz-sc-UPi">
+                                <rect key="frame" x="166" y="84" width="42" height="563"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-th-GIn">
-                                        <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-th-GIn">
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="563"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -89,7 +89,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="mbz-sc-UPi" firstAttribute="centerX" secondItem="Q5j-mk-fba" secondAttribute="centerX" id="3fC-f6-m40"/>
                             <constraint firstItem="mbz-sc-UPi" firstAttribute="top" secondItem="71t-Sg-6uO" secondAttribute="top" constant="20" id="Ind-ez-BJc"/>
+                            <constraint firstItem="Wpa-th-GIn" firstAttribute="centerY" secondItem="71t-Sg-6uO" secondAttribute="centerY" id="MgA-CR-15C"/>
+                            <constraint firstItem="Wpa-th-GIn" firstAttribute="centerX" secondItem="71t-Sg-6uO" secondAttribute="centerX" id="nlk-oP-R5X"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="71t-Sg-6uO"/>
                     </view>
